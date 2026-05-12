@@ -25,4 +25,3 @@ public class LoanService {
         loan.setState(new FundingState());
     }
 }
-

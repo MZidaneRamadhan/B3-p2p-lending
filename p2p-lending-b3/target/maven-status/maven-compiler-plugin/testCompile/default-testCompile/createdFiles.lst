@@ -1,0 +1,6 @@
+com\p2plending\service\NegativeAmountLoanGreenTest.class
+com\p2plending\service\BorrowerValidLoanGreenTest.class
+com\p2plending\service\BorrowerValidLoanRedTest.class
+com\p2plending\service\NegativeAmountLoanRedTest.class
+com\p2plending\service\TenorValidationGreenTest.class
+com\p2plending\service\TenorValidationRedTest.class

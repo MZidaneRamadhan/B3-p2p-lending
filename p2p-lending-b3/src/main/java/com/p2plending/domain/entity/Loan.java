@@ -47,4 +47,13 @@ public class Loan {
         System.out.println("Loan state changed to: " + state.getStateName());
     }
 
+    // Getter untuk ngecek state dari test (LoanServiceTest, dll)
+    // Mengembalikan nama state saat ini: "Pending", "Validated", "Rejected", dll.
+    public String getStateName() {
+        if (currentState == null) {
+            return null;
+        }
+        return currentState.getStateName();
+    }
+
 }
