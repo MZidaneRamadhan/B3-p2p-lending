@@ -8,13 +8,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * GREEN TEST — Borrower Mengajukan Pinjaman Valid
- *
+ * GREEN TEST Borrower Mengajukan Pinjaman Valid
  * Semua aturan terpenuhi:
- *   1. Amount: 1.000.000 <= amount <= 50.000.000
- *   2. Credit score: >= 650
- *   3. Tenor: 3, 6, atau 12 bulan
- *
+ * 1. Amount: 1.000.000 <= amount <= 50.000.000
+ * 2. Credit score: >= 650
+ * 3. Tenor: 3, 6, atau 12 bulan
  * Hasil yang diharapkan: "Validated"
  */
 public class BorrowerValidLoanGreenTest {

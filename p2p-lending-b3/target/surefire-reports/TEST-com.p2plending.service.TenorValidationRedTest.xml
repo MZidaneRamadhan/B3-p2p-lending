@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.p2plending.service.TenorValidationRedTest" time="0" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.p2plending.service.TenorValidationRedTest" time="0.001" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\aaiqb\AppData\Local\Temp\surefire13156144431102480969\surefirebooter15851797108752339614.jar C:\Users\aaiqb\AppData\Local\Temp\surefire13156144431102480969 2026-05-13T01-46-05_763-jvmRun1 surefire10538928081536795559tmp surefire_04522455510946957812tmp"/>
+    <property name="sun.java.command" value="C:\Users\aaiqb\AppData\Local\Temp\surefire12562114087406073369\surefirebooter10759986058536024634.jar C:\Users\aaiqb\AppData\Local\Temp\surefire12562114087406073369 2026-05-13T01-56-28_291-jvmRun1 surefire8505593686463096447tmp surefire_05537263225376916307tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\CoolYeah\Teknik Pemrograman\TubesTekproNewRepo\B3-p2p-lending\p2p-lending-b3\target\test-classes;D:\CoolYeah\Teknik Pemrograman\TubesTekproNewRepo\B3-p2p-lending\p2p-lending-b3\target\classes;C:\Users\aaiqb\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\aaiqb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\aaiqb\AppData\Local\Temp\surefire13156144431102480969\surefirebooter15851797108752339614.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\aaiqb\AppData\Local\Temp\surefire12562114087406073369\surefirebooter10759986058536024634.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
@@ -65,7 +65,7 @@
   <testcase name="tenor4_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0"/>
   <testcase name="tenorNegative_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0"/>
   <testcase name="tenor7_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0"/>
-  <testcase name="tenor2_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0"/>
+  <testcase name="tenor2_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0.001"/>
   <testcase name="tenor1_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0"/>
   <testcase name="tenor5_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0"/>
   <testcase name="tenor24_shouldBeRejected" classname="com.p2plending.service.TenorValidationRedTest" time="0"/>
