@@ -8,8 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * GREEN TEST — Mengajukan Pinjaman dengan Jumlah Positif
- *
+ * GREEN TEST Mengajukan Pinjaman dengan Jumlah Positif
  * Amount positif dalam batas 1.000.000 <= amount <= 50.000.000
  * Hasil yang diharapkan: "Validated"
  */
