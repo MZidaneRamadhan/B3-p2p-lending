@@ -8,8 +8,8 @@ public class Borrower extends User {
     private int creditScore;
     private double loanLimit;
 
-    public Borrower(String userId, String name, int creditScore, double loanLimit) {
-        super(userId, name);
+    public Borrower(String userId, String name, String email, String number, int creditScore, double loanLimit) {
+        super(userId, name, email, number);
         this.creditScore = creditScore;
         this.loanLimit = loanLimit;
     }

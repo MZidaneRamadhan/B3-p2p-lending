@@ -12,8 +12,7 @@ public class Loan {
     private LoanState currentState;
     private InterestStrategy strategy;
 
-    public Loan(String loanId, Borrower borrower, double amount,
-            int tenorMonths, InterestStrategy strategy) {
+    public Loan(String loanId, Borrower borrower, double amount, int tenorMonths, InterestStrategy strategy) {
         this.loanId = loanId;
         this.borrower = borrower;
         this.amount = amount;

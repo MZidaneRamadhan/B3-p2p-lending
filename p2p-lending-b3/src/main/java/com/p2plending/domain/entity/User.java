@@ -14,12 +14,7 @@ public class User {
         this.number = number;
     }
 
-    // Constructor tambahan — untuk subclass (Borrower, Lender) yang cuma butuh userId & name
-    // Email dan number diisi default string kosong
-    public User(String userId, String name) {
-        this.userId = userId;
-        this.name = name;
-        this.email = "";
-        this.number = "";
+    public String getUserId() {
+        return userId;
     }
 }

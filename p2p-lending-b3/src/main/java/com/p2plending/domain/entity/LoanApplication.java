@@ -25,4 +25,8 @@ public class LoanApplication {
     public int getTenorMonths() {
         return tenorMonths;
     }
+
+    public String getApplicationId() {
+        return applicationId;
+    }
 }

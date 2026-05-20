@@ -18,7 +18,7 @@ public class TenorValidationGreenTest {
     private final LoanService loanService = new LoanService();
 
     private Loan createLoan(int tenor) {
-        Borrower borrower = new Borrower("B1", "Budi", 700, 10000000);
+        Borrower borrower = new Borrower("B1", "Budi", "budi@example.com", "123456789", 700, 10000000);
         Loan loan = new Loan("L1", borrower, 5000000, tenor, new FixedRateStrategy());
         loan.setState(new PendingState());
         return loan;

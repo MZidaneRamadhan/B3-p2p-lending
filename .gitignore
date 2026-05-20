@@ -1,0 +1,17 @@
+# Maven
+target/
+**/target/
+*.class
+**/*.class
+
+# IDEs
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.factorypath
+
+.vscode/
+settings.json
+launch.json

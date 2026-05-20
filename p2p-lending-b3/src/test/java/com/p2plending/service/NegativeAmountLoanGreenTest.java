@@ -19,7 +19,7 @@ public class NegativeAmountLoanGreenTest {
 
     @Test
     public void positiveAmount_shouldBeValidated() {
-        Borrower borrower = new Borrower("B1", "Budi", 700, 10000000);
+        Borrower borrower = new Borrower("B1", "Budi", "budi@example.com", "123456789", 700, 10000000);
         Loan loan = new Loan("L1", borrower, 5000000, 6, new FixedRateStrategy());
         loan.setState(new PendingState());
 

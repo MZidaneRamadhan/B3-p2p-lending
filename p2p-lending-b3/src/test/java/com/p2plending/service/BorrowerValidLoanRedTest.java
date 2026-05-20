@@ -11,9 +11,9 @@ import static org.junit.Assert.*;
  * RED TEST — Borrower Mengajukan Pinjaman Valid
  *
  * Satu atau lebih aturan dilanggar:
- *   1. Amount < 1.000.000 atau > 50.000.000
- *   2. Credit score < 650
- *   3. Tenor bukan 3, 6, atau 12
+ * 1. Amount < 1.000.000 atau > 50.000.000
+ * 2. Credit score < 650
+ * 3. Tenor bukan 3, 6, atau 12
  *
  * Hasil yang diharapkan: "Rejected"
  */
@@ -22,7 +22,7 @@ public class BorrowerValidLoanRedTest {
     private final LoanService loanService = new LoanService();
 
     private Loan createLoan(double amount, int creditScore, int tenor) {
-        Borrower borrower = new Borrower("B1", "Budi", creditScore, 10000000);
+        Borrower borrower = new Borrower("B1", "Budi", "budi@example.com", "123456789", creditScore, 10000000);
         Loan loan = new Loan("L1", borrower, amount, tenor, new FixedRateStrategy());
         loan.setState(new PendingState());
         return loan;

@@ -18,7 +18,7 @@ public class NegativeAmountLoanRedTest {
     private final LoanService loanService = new LoanService();
 
     private Loan createLoan(double amount) {
-        Borrower borrower = new Borrower("B1", "Budi", 700, 10000000);
+        Borrower borrower = new Borrower("B1", "Budi", "budi@example.com", "123456789", 700, 10000000);
         Loan loan = new Loan("L1", borrower, amount, 6, new FixedRateStrategy());
         loan.setState(new PendingState());
         return loan;
