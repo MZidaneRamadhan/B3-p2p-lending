@@ -8,8 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * RED TEST — Mengajukan Pinjaman dengan Jumlah Negatif atau Nol
- *
+ * RED TEST Mengajukan Pinjaman dengan Jumlah Negatif atau Nol
  * Amount negatif (< 0) atau nol (0) melanggar batas minimum 1.000.000
  * Hasil yang diharapkan: "Rejected"
  */

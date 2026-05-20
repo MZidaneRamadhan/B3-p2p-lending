@@ -8,8 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * GREEN TEST — Validasi Tenor Pinjaman
- *
+ * GREEN TEST Validasi Tenor Pinjaman
  * Tenor yang valid: 3, 6, atau 12 bulan
  * Hasil yang diharapkan: "Validated"
  */

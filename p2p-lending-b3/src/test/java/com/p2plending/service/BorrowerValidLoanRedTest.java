@@ -8,13 +8,15 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * RED TEST — Borrower Mengajukan Pinjaman Valid
- *
+ * RED TEST Borrower Mengajukan Pinjaman Valid
  * Satu atau lebih aturan dilanggar:
  * 1. Amount < 1.000.000 atau > 50.000.000
  * 2. Credit score < 650
  * 3. Tenor bukan 3, 6, atau 12
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 382854965bfa0e3edb6dcf35cb09371153e7d176
  * Hasil yang diharapkan: "Rejected"
  */
 public class BorrowerValidLoanRedTest {

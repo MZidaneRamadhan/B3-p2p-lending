@@ -8,8 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * RED TEST — Validasi Tenor Pinjaman
- *
+ * RED TEST Validasi Tenor Pinjaman
  * Tenor yang tidak valid: selain 3, 6, atau 12 bulan
  * Hasil yang diharapkan: "Rejected"
  */
